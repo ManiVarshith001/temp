@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let products = [
+            {
+                id: 1,
+                name: "iphone",
+                price: 1000,
+                desc: "this is desc of product",
+                url: "",
+            },
+            {
+                id: 2,
+                name: "samsung",
+                price: 800,
+                desc: "this is desc of product",
+                url: "",
+            },
+            {
+                id: 3,
+                name: "mi",
+                price: 500,
+                desc: "this is desc of product",
+                url: "",
+            },
+        ];
+        let length = products.length
+        let str=" "
+        for(let i=0;i<products.length;i++){
+           str = str + products[i].name
+        }
+        root.innerhtml = str
+    </script>
+</body>
+</html>
